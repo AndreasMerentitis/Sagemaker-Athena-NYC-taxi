@@ -5,7 +5,7 @@ The NYC taxi dataset is used as starting point. The dataset is large so it requi
 execution of queries. 
 
 After uploading the files of the repository to a Sagemaker notebook intance, you can run the run_athena_query.ipynb to download the dataset.
-After this set is complete, you can split the files and move for Sagemaker disk to S3. 
+After this set is complete, you can split the files and move from Sagemaker disk to S3. 
 Finally you can execute the script taxi_fare_prediction.ipynb to train and deploy the model. 
 
 ```bash
