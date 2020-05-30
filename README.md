@@ -10,5 +10,7 @@ After this set is complete, you can split the files and move for Sagemaker disk 
 Finally you can execute the script taxi_fare_prediction.ipynb to train and deploy the model. 
 
 ![relative path 1](/feature_exploration.jpeg?raw=true "feature_exploration.jpeg")
+![relative path 2](/residuals.jpeg?raw=true "residuals.jpeg")
+
 
 
