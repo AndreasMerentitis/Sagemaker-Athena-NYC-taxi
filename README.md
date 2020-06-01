@@ -15,8 +15,10 @@ $ aws sagemaker create-notebook-instance \
                     --instance-type "ml.t2.medium" \
                     --role-arn "arn:aws:iam::012345678901:role/service-role/AmazonSageMaker-ExecutionRole-20181129T121390" \
                     --default-code-repository "MyGitRepo" \
-                    --additional-code-repositories "https://github.com/myprofile/my-other-repo"
+                    --additional-code-repositories "https://github.com/AndreasMerentitis/Sagemaker-Athena-NYC-taxi"
 ```
+
+Where you need to replace the specific values with our own (repository, ec2 configuration, role, etc).
 
 ![relative path 1](/feature_exploration.jpeg?raw=true "feature_exploration.jpeg")
 ![relative path 2](/residuals.jpeg?raw=true "residuals.jpeg")
