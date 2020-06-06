@@ -22,6 +22,7 @@ Where you need to replace the specific values with our own (repository, ec2 conf
 
 ![relative path 1](/feature_exploration.jpeg?raw=true "feature_exploration.jpeg")
 ![relative path 2](/residuals.jpeg?raw=true "residuals.jpeg")
-
+![relative path 3](/validation_error.png?raw=true "validation_error.png")
+![relative path 4](/shap_feature_importance.png?raw=true "shap_feature_importance.png")
 
 
