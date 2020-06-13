@@ -4,7 +4,7 @@ The goal of this repository is to showcase the use of AWS Sagemaker and AWS Athe
 The NYC taxi dataset is used as starting point. The dataset is large so it requires either a very large machine on distributed
 execution of queries. 
 
-The following file are to train and deploy models:
+The following files are used to train and deploy models:
 * taxi_fare_prediction_original.ipynb which is the original one from the first reference 
 * taxi_fare_prediction_dataframe.ipynb which is training the model from a single csv using less data (as baseline for comparissons) 
 * taxi_fare_prediction.ipynb which is doing distributed training of the model and explanation using Kernel Shap on a small sample
@@ -33,4 +33,5 @@ Where you need to replace the specific values with our own (repository, ec2 conf
 ![relative path 4](/features_shap.png?raw=true "features_shap.png")
 ![relative path 5](/shap_feature_importance.png?raw=true "shap_feature_importance.png")
 
-
+# Extending and reusing the basic idea from these sources:
+* https://blog.doit-intl.com/predict-taxi-ride-fare-using-amazon-sagemaker-in-5-easy-steps-ae853796af40
