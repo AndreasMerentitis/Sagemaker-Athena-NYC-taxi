@@ -29,6 +29,7 @@ WITH
         cos(2*pi()*epoch/(seconds_in_day*7)) cos_week,
      
         -- Raw features
+        pickup_datetime,
         pickup_longitude,
         pickup_latitude,
         dropoff_longitude,
