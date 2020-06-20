@@ -27,6 +27,11 @@ WITH
         cos(2*pi()*epoch/seconds_in_day) cos_day,
         sin(2*pi()*epoch/(seconds_in_day*7)) sin_week,
         cos(2*pi()*epoch/(seconds_in_day*7)) cos_week,
+                          
+         -- Distance features
+         pickup_longitude - dropoff_longitude diff_longitude,
+         pickup_latitude - dropoff_latitude diff_latitude,
+         ST_Distance(pickup_point, dropoff_point) dist, 
      
         -- Raw features
         pickup_datetime,
